@@ -3,7 +3,7 @@ TARGET = snake_game
 CXX = g++
 CXXFLAGS = -std=c++11 -Wall
 
-SRC = main.cpp
+SRC = main.cpp food.cpp Snake.cpp
 
 
 SFML_LIBS = -lsfml-graphics -lsfml-window -lsfml-system
