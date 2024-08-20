@@ -93,7 +93,6 @@ int main(int argc, char** argv) {
 
             if (snake.checkCollisionWithFood(food.getShape())) {
                 snake.increaseSpeed();
-                std::cout << snake.getSpeed() <<std::endl;
                 score++;
                 snake.grow();
                 food.placeFood(window);

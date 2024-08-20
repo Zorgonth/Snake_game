@@ -51,7 +51,7 @@ bool Snake::checkSelfCollision() {
     sf::FloatRect headBounds = segments[0].getGlobalBounds();
 
     if (segments.size() > 200) {
-        for (int i = 200; i < segments.size();i++){
+        for (long unsigned int i = 200; i < segments.size();i++){
             if (headBounds.intersects(segments[i].getGlobalBounds()))
                 return true;
         }
