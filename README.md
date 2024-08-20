@@ -15,22 +15,22 @@ Make sure you have SFML installed on your system. You can install SFML using the
 
 - For Linux use: 
 ```
-    make install_linux
+make install_linux
 ```
 - For macOS use: 
 ```
-    make install_mac
+make install_mac
 ```
 ## Build the Game
 To compile the game, run:
 ```bash
-    make
+make
 ```
 ## Run the Game
 After building, you can run the game with different difficulty levels like this:
 
 ```bash
-    ./snake_game easy
+./snake_game easy
 ```
 Replace easy with medium, hard, or super-hard to adjust the game difficulty.
 
